@@ -16,3 +16,15 @@ This is the base model for the Snowflake Query History table https://docs.snowfl
 This builds on top of seeded data and results in a model where you have the rate per day. 
 
 {% enddocs %}
+
+{% docs snowflake_pipes %}
+
+This is the base model for information on Snowflake Pipes https://docs.snowflake.com/en/sql-reference/account-usage/pipes.html.
+
+{% enddocs %}
+
+{% docs snowflake_pipe_usage_history %}
+
+This is the base model for the Snowflake Pipe Usage History table https://docs.snowflake.net/manuals/sql-reference/account-usage/pipe_usage_history.html.
+
+{% enddocs %}

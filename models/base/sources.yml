@@ -13,3 +13,5 @@ sources:
     tables:
       - name: query_history
       - name: warehouse_metering_history
+      - name: pipes
+      - name: pipe_usage_history

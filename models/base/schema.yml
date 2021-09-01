@@ -56,3 +56,19 @@ models:
       - name: start_time
       - name: end_time
       - name: credits_used
+    - name: snowflake_pipes
+      description: '{{ doc("snowflake_pipes") }}'
+      columns:
+      - name: pipe_id
+      - name: pipe_name
+      - name: pipe_schema
+      - name: pipe_catalog
+      - name: is_autoingest_enabled
+    - name: snowflake_pipe_usage_history
+      description: '{{ doc("snowflake_pipe_usage_history") }}'
+      columns:
+      - name: pipe_id
+      - name: pipe_name
+      - name: start_time
+      - name: end_time
+      - name: credits_used
