@@ -16,6 +16,7 @@ models:
       - name: credits_used
       - name: dollars_spent
         description: Calculates the dollar value based on the credits consumed.
+
     - name: snowflake_pipes_metering_xf
       description: This is the transformed model for the Snowflake Pipes Metering History table https://docs.snowflake.net/manuals/sql-reference/account-usage/pipe_usage_history.html.
       columns:
